@@ -17,7 +17,7 @@ A beautiful, cute, and professional interactive recipe web page. This project fe
 
 ## 🚀 Live Demo
 
-**View the live project here:** [PASTE_YOUR_GITHUB_PAGES_LINK_HERE]
+**View the live project here:** [https://jhansi-1123.github.io/My_Projects/]
 
 ---
 
@@ -30,14 +30,6 @@ A beautiful, cute, and professional interactive recipe web page. This project fe
 
 ---
 
-## 📂 Project Structure
-
-```bash
-├── index.html   # Main structure & Recipe content
-├── style.css    # Soft aesthetic styling & animations
-└── script.js    # Timer, Progress, and Toast logic
-
-
 🔧 How to Use
 
 Open the App: Simply open the index.html file in your favorite browser.
@@ -46,8 +38,9 @@ How to Interact:
 
 Click "View Ingredients" to see what you need.
 Click on individual ingredients to "add" them to your mix.
-Hit "Start Cooking" to begin the timer and follow the steps!
+Hit "Start Cooking" to begin the timer and follow the steps.
 
 
 👨‍💻 Built by
+
 [Dasari Jhansi]

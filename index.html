@@ -1,0 +1,123 @@
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="recipe-card">
+    <h1 class="title">🍫 Chocolate Cake</h1>
+
+    <img src="chocolate-cake.jpg" alt="Chocolate Cake" class="dish-image"/>
+
+    <div class="info">
+      <span>⏱ <strong>Prep:</strong> 45 mins</span>
+      <span>👨‍👩‍👧‍👦 <strong>Serves:</strong> 4</span>
+    </div>
+
+    <button id="toggle-ingredients" class="btn glow">▶ Show Ingredients</button>
+    <ul id="ingredients" class="hidden list">
+      <li class="ingredient-item">1 cup flour</li>
+      <li class="ingredient-item">1/2 cup cocoa powder</li>
+      <li class="ingredient-item">1 cup sugar</li>
+      <li class="ingredient-item">2 eggs</li>
+      <li class="ingredient-item">1/2 cup milk</li>
+    </ul>
+
+    <button id="start-cooking" class="btn glow">🍽 Start Cooking</button>
+    <p id="timer" class="timer">Time Left: 45:00</p>
+
+    <ol id="steps" class="list">
+      <li>Preheat oven to 180°C.</li>
+      <li>Mix dry ingredients together.</li>
+      <li>Add wet ingredients and stir well.</li>
+      <li>Pour into a greased pan.</li>
+      <li>Bake for 30-35 minutes.</li>
+    </ol>
+
+    <div class="progress-bar">
+      <div id="progress" class="progress"></div>
+    </div>
+  </div>
+
+  <div id="animation-box" class="animation-box">🥣 Pouring...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heavenly Chocolate Cake</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="recipe-container">
+    <header class="recipe-header">
+      <h1 class="main-title">Heavenly Chocolate Cake</h1>
+      <p class="tagline">Made with love, cocoa, and magic ✨</p>
+    </header>
+
+    <div class="image-wrapper">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800" alt="Cake" class="main-image"/>
+    </div>
+
+    <div class="control-panel">
+      <button id="start-cooking" class="btn-action">Start Cooking 🥄</button>
+      <div id="timer" class="timer-box">Ready to bake? 🕒</div>
+    </div>
+
+    <div class="quick-info">
+      <div class="info-box"><span>⏰ Time</span><strong>45 Mins</strong></div>
+      <div class="info-box"><span>🍰 Level</span><strong>Easy</strong></div>
+      <div class="info-box"><span>👥 Yield</span><strong>4 Servings</strong></div>
+    </div>
+
+    <section class="content-section">
+      <button id="toggle-ingredients" class="btn-primary">📜 View Ingredients</button>
+      
+      <div id="ingredients-area" class="hidden">
+        <h3 class="section-title">Ingredients Checklist</h3>
+        <div class="ingredient-grid">
+          <div class="ingredient-item">🍫 1 cup Flour</div>
+          <div class="ingredient-item">☁️ 1/2 cup Cocoa</div>
+          <div class="ingredient-item">🍬 1 cup Sugar</div>
+          <div class="ingredient-item">🥚 2 Fresh Eggs</div>
+          <div class="ingredient-item">🥛 1/2 cup Milk</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h3 class="section-title">Step-by-Step Instructions</h3>
+      <div class="progress-container">
+        <div id="progress" class="progress-bar"></div>
+      </div>
+      
+      <ol id="step-list" class="steps">
+        <li>Preheat oven to 180°C and grease your cake tin.</li>
+  <li>Sift flour and cocoa powder into a large bowl.</li>
+  <li>Whisk eggs and sugar until smooth and fluffy.</li>
+  <li>Slowly stir in the milk and a splash of vanilla.</li>
+  <li>Fold the dry mix into the wet batter gently.</li>
+  <li>Pour batter into the tin and tap to remove bubbles.</li>
+  <li>Bake for 35 minutes and let it cool before serving.</li>
+      </ol>
+    </section>
+  </div>
+
+  <div id="toast" class="toast-message">Added to the mix! 🥣</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
